@@ -1,0 +1,20 @@
+export const routes = {
+    home: "/",
+    login: "/login",
+    signUp: "/signUp",
+    signUpVerify: "/verifyEmail/:token",
+    forgotPassword: "/forgotPassword",
+    resetPassword: "/reset/:token",
+    updatePasswordViaEmail: "/updatePasswordViaEmail",
+    logout:"/logout",
+    manager: "/manager",
+    addEmployee : "/manager/addEmplyoee",
+    deleteEmployee : "/manager/deleteEmployee/:empId",
+    getEmployee : "/manager/getEmployee/:action",
+    updateEmployee : "/manager/updateEmployee/:empId",
+    employee : "/employee/:empid",
+    addVacation : "/addVacation",
+    cancelVacation : "/cancelVacation",
+    viewAllRequests : "/employee/:empid/allRequests",
+    viewPendingRequests : "/employee/:empid/pendingRequests"
+}
